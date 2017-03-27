@@ -4,11 +4,11 @@ Version:	2.05
 Release:	1
 License:	Apache v2.0
 Group:		Applications/Networking
-URL:		http://mailfud.org/iXhash2/
 Source0:	http://mailfud.org/iXhash2/iXhash2-%{version}.tar.gz
 # Source0-md5:	3acd152c17207ae2454a35c29b41a258
 Source1:	spamassassin-iXhash2.eml
 Patch0:		spamassassin-iXhash2-2.05-conf.patch
+URL:		http://mailfud.org/iXhash2/
 BuildRequires:	perl-devel
 Requires:	spamassassin >= 3.2
 Provides:	spamassassin-iXhash = 1.5.5-2
