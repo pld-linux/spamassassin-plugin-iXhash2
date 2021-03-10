@@ -1,7 +1,7 @@
 Summary:	SpamAssassin plugin to lookup e-mail checksums in blacklists
 Name:		spamassassin-plugin-iXhash2
 Version:	2.05
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Applications/Networking
 Source0:	http://mailfud.org/iXhash2/iXhash2-%{version}.tar.gz
