@@ -28,7 +28,7 @@ packages from within SpamAssassin.
 
 %prep
 %setup -q -n iXhash2-%{version}
-%patch0 -p1 -b .conf
+%patch -P0 -p1 -b .conf
 cp -pf %{SOURCE1} iXhash2.eml
 
 %build
